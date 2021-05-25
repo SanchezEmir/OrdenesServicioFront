@@ -1,0 +1,17 @@
+<form class="form" autocomplete="off">
+  <h1>Creando nuevo Tecnico</h1>
+  <mat-form-field class="full-width">
+    <mat-label>Nombre</mat-label>
+    <input matInput placeholder="Ejem: Licas Reyes se la lleva fácil" />
+  </mat-form-field>
+  <mat-form-field class="full-width">
+    <mat-label>DNI</mat-label>
+    <input matInput placeholder=" Ejem: [8 digitos]" />
+  </mat-form-field>
+  <mat-form-field class="full-width">
+    <mat-label>Telefono</mat-label>
+    <input matInput placeholder="Ejem: 999999999" />
+  </mat-form-field>
+  <button  (click)="crear()" mat-stroked-button color="accent">Crear</button>
+  <button (click)="cancelar()" mat-stroked-button color="warn">Cancelar</button>
+</form>
