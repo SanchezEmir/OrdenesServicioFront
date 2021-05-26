@@ -1,4 +1,4 @@
-export interface Tecnico {
+export interface Cliente {
   id?: any;
   name: String;
   dni: String;
